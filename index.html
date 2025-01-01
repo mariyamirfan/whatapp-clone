@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>whatsapp clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="whatapp_Box">
+        <div class="_header">
+          <div class="top_header_content">
+            <h5>WhatsApp</h5>
+            <div class="right_top_icons">
+              <i class="fa fa-camera"></i>
+              <i class="fa fa-search"></i>
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="bottom_header_content">
+            <button id="user"><i class="fa fa-users"></i></button>
+            <button id="chats" class="active">Chats</button>
+            <button id="status">Status</button>
+            <button id="calls">Calls</button>
+          </div>
+        </div>
+
+        <div class="screen">
+          <div class="contact_list">
+            <ul>
+              <li>
+                <div class="profile_section">
+                  <img src="img4.png" alt=""/>
+                </div>
+                <div class="contact_section">
+                  <h5>Aqsa</h5>
+                  <small>channel ka link</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">5:39 am</small>
+                  <small class="count">44</small>
+                </div>
+              </li>
+              <li>
+                <div class="profile_section">
+                  <img src="img5.png" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>Kinza_bestie☺️</h5>
+                  <small>Kc ho dear</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">7:25 am</small>
+                  <small class="count">12</small>
+                </div>
+              </li>
+              <li>
+                <div class="profile_section">
+                  <img src="img6.png" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>Web Development Course</h5>
+                  <small>plz check my website</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="timey">7:00 am</small>
+                  <!-- <small class="count">44</small> -->
+                </div>
+              </li>
+              <li>
+                <div class="profile_section">
+                  <img src="img7.png" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>React Native Journey</h5>
+                  <small>@~Hunain Hyder🙂</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">6:00 am</small>
+                  <!-- <small class="count">44</small> -->
+                </div>
+              </li>
+              <li>
+                <div class="profile_section">
+                  <img src="img8.png" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>Miss Rafia ♥️</h5>
+                  <small>video</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">2:00 am</small>
+                </div>
+              </li>
+              <li>
+                <div class="profile_section">
+                  <img src="img9.png" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>♡Mehwish😍♡¸.•*</h5>
+                  <small>Hello</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">4:00 am</small>
+                  <!-- <small class="count">44</small> -->
+                </div>
+              </li>
+              <li>
+                <div class="profile_section">
+                  <img src="img10.png" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>Baba jani</h5>
+                  <small>ye mara linkedli account ha</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">9:00 am</small>
+                </div>
+              </li>
+              <li>
+                <div class="profile_section">
+                  <img src="img11.png" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>khala jan</h5>
+                  <small>tum kc ho main to theek hu</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">1:00 pm</small>
+                </div>
+              </li>
+              <li>
+                <div class="profile_section">
+                  <img src="img1.jpg" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>phopho</h5>
+                  <small>ok theek ha</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">1:00 pm</small>
+                </div>
+              </li>
+            </ul>
+
+            <button class="chatBtns">  <i class="fa fa-commenting" aria-hidden="true"></i></button>
+
+          </div>
+
+          <!-- status area is the start -->
+          <div class="status_area">
+            <ul>
+              <li>
+                <div class="my_status">
+                  <img src="img3.png" alt="" />
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                </div>
+                <div class="status_contact">
+                  <h5>My status</h5>
+                  <p>Tap to add status update</p>
+                </div>
+              </li>
+              <p class="statusTxt">recent update</p>
+              <li>
+                <div class="my_status recent">
+                  <img src="4.jpeg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>Miss Rafia ♥️</h5>
+                  <p>1 miniuts ago</p>
+                </div>
+              </li>
+              <li>
+                <div class="my_status recent">
+                  <img src="img9.png" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>♡Mehwish😍♡¸.•*</h5>
+                  <p>3 miniuts ago</p>
+                </div>
+              </li>
+              <li>
+                <div class="my_status recent">
+                  <img src="6.jpeg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>Kinza_bestie☺️</h5>
+                  <p>Yesterday, 9:13 am</p>
+                </div>
+              </li>
+              <li>
+                <div class="my_status recent">
+                  <img src="img11.png" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>khala jan</h5>
+                  <p>today, 3:49 pm</p>
+                </div>
+              </li>
+              <p class="statusTxt">Viewed updates</p>
+              <li>
+                <div class="my_status">
+                  <img src="1.jpg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>Aqsa</h5>
+                  <p>Yesterday, 9:13 am</p>
+                </div>
+              </li>
+              <li>
+                <div class="my_status">
+                  <img src="img1.jpg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>phopho</h5>
+                  <p>today, 7:19 am</p>
+                </div>
+              </li>
+              <li>
+                <div class="my_status">
+                  <img src="img10.png" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>Baba jani</h5>
+                  <p>Yesterday, 9:13 am</p>
+                </div>
+              </li>
+            </ul>
+            <div class="status_btns">
+                <div class="block_Btns">
+                    <button><i class="fa fa-pencil"></i></button>
+                    <button><i class="fa fa-camera"></i></button>
+                </div>
+            </div>
+          </div>
+          <!-- status area is the end -->
+
+          <!-- calls area is the start -->
+          <div class="call_area">
+            <ul>
+              <li>
+                <div class="icon_call">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </div>
+
+                <div class="call_link">
+                  <h5>Create call link</h5>
+                  <small>Share a link for your Whatsapp call</small>
+                </div>
+              </li>
+
+              <p class="statusTxt">Recent</p>
+            <li>
+              <div class="call_img">
+                <img src="img5.png"alt="">
+              </div>
+
+              <div class="call_link">
+                <h5>Kinza_bestie☺️</h5>
+                <small><i class="fa fa-long-arrow-right" aria-hidden="true"></i> 16 December, 6:09 pm</small>
+              </div>
+
+              <i class="fa fa-video-camera calling_icon" aria-hidden="true"></i>
+            </li>
+            <li>
+              <div class="call_img">
+                <img src="img6.png" alt="">
+              </div>
+
+              <div class="call_link">
+                <h5>Web Development Course</h5>
+                <small><i class="fa fa-long-arrow-left" aria-hidden="true"></i> 16 December, 1:29 pm</small>
+              </div>
+
+              <i class="fa fa-phone calling_icon" aria-hidden="true"></i>
+            </li>
+            <li>
+              <div class="call_img">
+                <img src="img4.png" alt="">
+              </div>
+
+              <div class="call_link">
+                <h5>Aqsa</h5>
+                <small><i class="fa fa-long-arrow-left" aria-hidden="true"></i> 15 December, 2:38 pm</small>
+              </div>
+
+              <i class="fa fa-phone calling_icon" aria-hidden="true"></i>
+            </li>
+            <li>
+              <div class="call_img">
+                <img src="img1.jpg" alt="">
+              </div>
+
+              <div class="call_link">
+                <h5>phopho</h5>
+                <small><i class="fa fa-long-arrow-right" aria-hidden="true"></i> 15 December, 6:59 pm</small>
+              </div>
+
+              <i class="fa fa-video-camera calling_icon" aria-hidden="true"></i>
+            </li>
+            <li>
+              <div class="call_img">
+                <img src="img7.png" alt="">
+              </div>
+
+              <div class="call_link">
+                <h5>React Native Journey</h5>
+                <small><i class="fa fa-long-arrow-right" aria-hidden="true"></i> 15 December, 6:09 pm</small>
+              </div>
+
+              <i class="fa fa-video-camera calling_icon" aria-hidden="true"></i>
+            </li>
+            </ul>
+
+            <button class="callBtns">
+                <i class="fa fa-phone"></i>
+            </button>
+          </div>
+          <!-- calls area is the end -->
+
+          <!-- community -->
+          <div class="community_area">
+            <ul>
+              <li>
+                <div class="community_icon">
+                  <i class="fa fa-users" aria-hidden="true"></i>
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                </div>
+                <div class="text_community">
+                  <h5>New community</h5>
+                </div>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+        let btns = document.querySelectorAll('.bottom_header_content button');
+        let status_area = document.querySelector('.status_area');
+        let calls_area = document.querySelector('.call_area');
+        let contact_list = document.querySelector('.contact_list');
+        let community_area = document.querySelector('.community_area');
+        let chatBtns = document.querySelector('.chatBtns');
+        let status_btns =document.querySelector('.status_btns');
+        let callBtns = document.querySelector('.callBtns');
+        btns.forEach((element) =>{
+            element.addEventListener('click', () =>{
+                document.querySelector('.active').classList.remove('active');
+            if(element.id === "status"){
+                status_area.style.left = '0';
+                contact_list.style.left = '-100%';
+                calls_area.style.left="100%";
+                community_area.style.left ="-100%";
+                element.classList.add('active');
+                chatBtns.style.display = "none";
+            status_btns.style.display = "block";
+            callBtns.style.display = "none";
+            }else if(element.id === "chats"){
+                status_area.style.left = '100%';
+                contact_list.style.left = '0%';
+                calls_area.style.left="100%";
+                community_area.style.left ="-100%";
+                element.classList.add('active');
+                chatBtns.style.display = "block";
+                status_btns.style.display = "none";
+                callBtns.style.display = "none";
+            }else if(element.id === "calls"){
+                calls_area.style.left="0";
+                status_area.style.left = '-100%';
+                contact_list.style.left = '-100%';
+                community_area.style.left ="-100%";
+                element.classList.add('active');
+                chatBtns.style.display = "none";
+                status_btns.style.display = "none";
+                callBtns.style.display = "block";
+            }else{
+                calls_area.style.left="100%";
+                status_area.style.left = '100%';
+                contact_list.style.left = '100%';
+                community_area.style.left ="0";
+                element.classList.add('active');
+                chatBtns.style.display = "none";
+                status_btns.style.display = "none";
+                callBtns.style.display = "none";
+            }
+            })
+        })
+    </script>
+  </body>
+</html>
